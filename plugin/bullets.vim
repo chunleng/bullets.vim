@@ -1005,7 +1005,7 @@ augroup TextBulletsMappings
     call s:add_local_mapping('nnoremap', 'gN', ':RenumberList<cr>')
 
     " Toggle checkbox
-    call s:add_local_mapping('nnoremap', '<leader>x', ':ToggleCheckbox<cr>')
+    " call s:add_local_mapping('nnoremap', '<leader>x', ':ToggleCheckbox<cr>')
 
     " Promote and Demote outline level
     call s:add_local_mapping('inoremap', '<C-t>', '<C-o>:BulletDemote<cr>')
